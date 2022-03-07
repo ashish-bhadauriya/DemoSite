@@ -1,0 +1,47 @@
+*{
+    margin: 0.5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+nav{
+    width: 60vw;
+    margin-top: -0.2rem;
+}
+.Bigimg{
+    width: 95vw;
+    margin-top: 4rem;
+}
+.container{
+  display: flex;
+  justify-content:space-evenly;
+}
+.container>div{
+    font-size: x-large;
+    line-height: 1.5rem;
+}
+h1{
+    font-size:normal;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    font-size: x-large;
+    text-align: center;
+}
+footer>p{
+    padding: 1rem;
+}
